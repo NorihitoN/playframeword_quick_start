@@ -7521,3 +7521,164 @@ WARNING: Unmatched cancel notification for request id 913
 2024.05.18 00:18:15 INFO  time: compiled root in 0.48s[0m
 2024.05.18 00:18:17 INFO  compiling root (1 scala source)[0m
 2024.05.18 00:18:17 INFO  time: compiled root in 0.45s[0m
+May 18, 2024 12:31:28 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 18, 2024 12:31:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/norihito.nakata/personal/scala/myscheduler/.metals/.reports/metals-full/2024-05-18/r_compiler-error_(root)_00-31-28-523.md
+May 18, 2024 12:31:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1032
+something's wrong: no file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/Schedule.scala in play.api.libs.json.Writes[<error>]RangePosition(file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/Schedule.scala, 225, 225, 241)
+2024.05.18 00:32:50 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:32:52 INFO  time: compiled root in 2.67s[0m
+2024.05.18 00:32:52 INFO  compiling root (3 scala sources)[0m
+2024.05.18 00:32:55 INFO  time: compiled root in 2.93s[0m
+2024.05.18 00:34:41 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:34:41 INFO  time: compiled root in 0.56s[0m
+2024.05.18 00:36:11 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:36:13 INFO  time: compiled root in 1.56s[0m
+something's wrong: no file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/ApiResponse.scala in play.api.libs.json.Writes[<error>]RangePosition(file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/ApiResponse.scala, 154, 154, 170)
+2024.05.18 00:37:54 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:37:57 INFO  time: compiled root in 2.88s[0m
+something's wrong: no file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/ApiResponse.scala in Option[<error>]RangePosition(file:///Users/norihito.nakata/personal/scala/myscheduler/app/models/ApiResponse.scala, 262, 262, 278)
+May 18, 2024 12:38:43 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 18, 2024 12:38:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/norihito.nakata/personal/scala/myscheduler/.metals/.reports/metals-full/2024-05-18/r_compiler-error_(root)_00-38-44-076.md
+2024.05.18 00:38:55 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:38:57 INFO  time: compiled root in 2.03s[0m
+2024.05.18 00:39:31 INFO  compiling root (1 scala source)[0m
+2024.05.18 00:39:31 INFO  time: compiled root in 0.52s[0m
+2024.05.18 00:40:03 INFO  compiling root (1 scala source)[0m
+May 18, 2024 12:40:04 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.05.18 00:40:05 INFO  time: compiled root in 2.14s[0m
+2024.05.18 00:41:27 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:41:27 INFO  time: compiled root in 0.38s[0m
+2024.05.18 00:41:52 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:41:52 INFO  time: compiled root in 0.69s[0m
+2024.05.18 00:42:14 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:42:14 INFO  time: compiled root in 0.39s[0m
+2024.05.18 00:46:15 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:46:15 INFO  time: compiled root in 0.55s[0m
+something's wrong: no file:///Users/norihito.nakata/personal/scala/myscheduler/app/controllers/ApiController.scala in Option[<error>]RangePosition(file:///Users/norihito.nakata/personal/scala/myscheduler/app/controllers/ApiController.scala, 338, 338, 354)
+2024.05.18 00:47:38 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:47:38 INFO  time: compiled root in 0.66s[0m
+2024.05.18 00:47:46 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:47:46 INFO  time: compiled root in 0.23s[0m
+2024.05.18 00:48:03 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:48:03 INFO  time: compiled root in 0.11s[0m
+2024.05.18 00:48:28 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:48:28 INFO  time: compiled root in 0.18s[0m
+2024.05.18 00:48:43 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:48:43 INFO  time: compiled root in 0.17s[0m
+2024.05.18 00:49:05 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:49:05 INFO  time: compiled root in 0.61s[0m
+2024.05.18 00:49:15 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:49:15 INFO  time: compiled root in 0.34s[0m
+2024.05.18 00:50:06 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:50:06 INFO  time: compiled root in 0.6s[0m
+2024.05.18 00:52:59 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:52:59 INFO  time: compiled root in 0.78s[0m
+2024.05.18 00:53:26 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:53:26 INFO  time: compiled root in 0.81s[0m
+2024.05.18 00:53:31 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:53:31 INFO  time: compiled root in 0.37s[0m
+2024.05.18 00:55:57 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:55:57 INFO  time: compiled root in 0.19s[0m
+2024.05.18 00:56:17 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:56:17 INFO  time: compiled root in 0.13s[0m
+2024.05.18 00:56:39 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:56:39 INFO  time: compiled root in 0.64s[0m
+2024.05.18 00:57:07 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:57:07 INFO  time: compiled root in 0.37s[0m
+2024.05.18 00:57:14 INFO  compiling root (2 scala sources)[0m
+2024.05.18 00:57:16 INFO  time: compiled root in 2.16s[0m
+2024.05.18 00:58:43 INFO  compiling root (3 scala sources and 1 java source)[0m
+2024.05.18 00:58:51 INFO  time: compiled root in 7.98s[0m
+2024.05.18 01:01:37 INFO  running '/Users/norihito.nakata/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.05.18 01:01:40 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 17)[0m
+2024.05.18 01:01:42 INFO  [info] loading global plugins from /Users/norihito.nakata/.sbt/1.0/plugins[0m
+2024.05.18 01:01:44 INFO  [info] loading settings for project myscheduler-build-build-build from metals.sbt ...[0m
+2024.05.18 01:01:44 INFO  [info] loading project definition from /Users/norihito.nakata/personal/scala/myscheduler/project/project/project[0m
+2024.05.18 01:01:45 INFO  [info] loading settings for project myscheduler-build-build from metals.sbt ...[0m
+2024.05.18 01:01:45 INFO  [info] loading project definition from /Users/norihito.nakata/personal/scala/myscheduler/project/project[0m
+2024.05.18 01:01:49 INFO  [success] Generated .bloop/myscheduler-build-build.json[0m
+2024.05.18 01:01:49 INFO  [success] Total time: 4 s, completed May 18, 2024, 1:01:49 AM[0m
+2024.05.18 01:01:49 INFO  [info] loading settings for project myscheduler-build from metals.sbt,plugins.sbt ...[0m
+2024.05.18 01:01:49 INFO  [info] loading project definition from /Users/norihito.nakata/personal/scala/myscheduler/project[0m
+2024.05.18 01:01:52 INFO  [success] Generated .bloop/myscheduler-build.json[0m
+2024.05.18 01:01:52 INFO  [success] Total time: 2 s, completed May 18, 2024, 1:01:52 AM[0m
+2024.05.18 01:01:58 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.05.18 01:01:58 INFO  [info]   __              __[0m
+2024.05.18 01:01:58 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2024.05.18 01:01:58 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2024.05.18 01:01:58 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2024.05.18 01:01:58 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2024.05.18 01:01:58 INFO  [info]       /_/               /____/[0m
+2024.05.18 01:01:58 INFO  [info] [0m
+2024.05.18 01:01:58 INFO  [info] Version 3.0.3 running Java 17[0m
+2024.05.18 01:01:58 INFO  [info] [0m
+2024.05.18 01:01:58 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2024.05.18 01:01:58 INFO  [info] https://www.playframework.com/sponsors[0m
+2024.05.18 01:01:58 INFO  [info] [0m
+2024.05.18 01:02:04 INFO  [success] Generated .bloop/root.json[0m
+2024.05.18 01:02:04 INFO  [success] Generated .bloop/root-test.json[0m
+2024.05.18 01:02:04 INFO  [success] Total time: 5 s, completed May 18, 2024, 1:02:04 AM[0m
+2024.05.18 01:02:04 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+2024.05.18 01:02:04 INFO  Disconnecting from Bloop session...[0m
+2024.05.18 01:02:04 INFO  Shut down connection with build server.[0m
+2024.05.18 01:02:04 INFO  Shut down connection with build server.[0m
+2024.05.18 01:02:04 INFO  Shut down connection with build server.[0m
+2024.05.18 01:02:04 INFO  Attempting to connect to the build server...[0m
+2024.05.18 01:02:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/norihito.nakata/personal/scala/myscheduler/.metals/bsp.trace.json or /Users/norihito.nakata/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.05.18 01:02:04 INFO  Attempting to connect to the build server...[0m
+2024.05.18 01:02:04 INFO  Attempting to connect to the build server...[0m
+2024.05.18 01:02:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/norihito.nakata/personal/scala/myscheduler/project/project/.metals/bsp.trace.json or /Users/norihito.nakata/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.05.18 01:02:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/norihito.nakata/personal/scala/myscheduler/project/.metals/bsp.trace.json or /Users/norihito.nakata/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.05.18 01:02:04 INFO  time: Connected to build server in 0.2s[0m
+2024.05.18 01:02:04 INFO  Connected to Build server: Bloop v1.5.17[0m
+2024.05.18 01:02:04 INFO  time: Imported build in 0.1s[0m
+2024.05.18 01:02:04 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2024.05.18 01:02:14 INFO  time: indexed workspace in 9.55s[0m
+2024.05.18 01:02:23 INFO  compiling root (1 scala source)[0m
+2024.05.18 01:02:26 INFO  time: compiled root in 2.16s[0m
+2024.05.18 01:03:36 INFO  compiling root (1 scala source)[0m
+2024.05.18 01:03:36 INFO  time: compiled root in 0.23s[0m
+2024.05.18 01:03:44 INFO  compiling root (1 scala source)[0m
+2024.05.18 01:03:44 INFO  time: compiled root in 0.26s[0m
+2024.05.18 01:04:00 INFO  compiling root (1 scala source)[0m
+2024.05.18 01:04:00 INFO  time: compiled root in 0.7s[0m
+2024.05.18 01:12:58 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:13:01 WARN  1 feature warning; re-run with -feature for details[0m
+2024.05.18 01:13:01 INFO  time: compiled root-test in 3.22s[0m
+2024.05.18 01:13:01 INFO  compiling root-test (3 scala sources)[0m
+2024.05.18 01:13:01 INFO  time: compiled root-test in 0.14s[0m
+2024.05.18 01:13:11 INFO  compiling root-test (3 scala sources)[0m
+2024.05.18 01:13:15 WARN  2 feature warnings; re-run with -feature for details[0m
+2024.05.18 01:13:15 INFO  time: compiled root-test in 3.78s[0m
+2024.05.18 01:14:01 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:14:05 WARN  1 feature warning; re-run with -feature for details[0m
+2024.05.18 01:14:05 INFO  time: compiled root-test in 3.57s[0m
+2024.05.18 01:14:09 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:14:10 WARN  1 feature warning; re-run with -feature for details[0m
+2024.05.18 01:14:10 INFO  time: compiled root-test in 1.69s[0m
+2024.05.18 01:14:16 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:14:17 INFO  time: compiled root-test in 1.03s[0m
+2024.05.18 01:14:31 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:14:32 INFO  time: compiled root-test in 1.02s[0m
+2024.05.18 01:14:44 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:14:45 INFO  time: compiled root-test in 1.4s[0m
+2024.05.18 01:15:01 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:15:04 INFO  time: compiled root-test in 2.71s[0m
+2024.05.18 01:15:58 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:16:00 INFO  time: compiled root-test in 1.42s[0m
+2024.05.18 01:18:08 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:18:10 INFO  time: compiled root-test in 1.42s[0m
+2024.05.18 01:18:25 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:18:26 INFO  time: compiled root-test in 1.44s[0m
+2024.05.18 01:19:16 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:19:18 INFO  time: compiled root-test in 1.57s[0m
+2024.05.18 01:21:57 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:21:58 INFO  time: compiled root-test in 1.36s[0m
+2024.05.18 01:22:09 INFO  compiling root-test (1 scala source)[0m
+2024.05.18 01:22:10 INFO  time: compiled root-test in 1.16s[0m

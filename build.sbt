@@ -12,6 +12,7 @@ libraryDependencies ++= Seq(
     "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.0" % Test,
     jdbc,
     evolutions,
+    filters,
     "com.h2database"  %  "h2"                           % "2.2.224",
     "org.scalikejdbc" %% "scalikejdbc"                  % "4.3.0",
     "org.scalikejdbc" %% "scalikejdbc-config"           % "4.3.0",
