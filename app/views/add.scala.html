@@ -1,0 +1,20 @@
+@import java.time.format.DateTimeFormatter 
+@import helper._
+@(form: Form[ScheduleRequest])(implicit request: RequestHeader)
+
+@main("Add Your Schedule") {
+<div class="container">
+<h1>Add Your Schedule</h1>
+    <br>
+    @for(error <- form.errors){
+        <p class="text-danger">@error.message</p>
+        }
+    <form method="post" action="/add" class="form-inline">
+            @CSRF.formField
+            <input type="text" name="name" class="form-control" placeholder="Name">
+            <input type="datetime-local" name="startDateTime" class="form-control" placeholder="Start Datetime">
+            <input type="datetime-local" name="endDateTime" class="form-control" placeholder="End Datetime">
+            <button type="submit" class="btn btn-primary">Add Schedule</button>
+    </form>
+</div>
+}

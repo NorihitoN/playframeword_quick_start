@@ -1,0 +1,33 @@
+@import java.time.format.DateTimeFormatter 
+@import helper._
+@(schedules: List[Schedule])(implicit request: RequestHeader)
+
+@main("Your Schedule") {
+<div class="container">
+<h1>Your Schedule</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Schedule</th>
+          <th>Start Datetime</th>
+          <th>End Datetime</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for(schedule <- schedules.reverse) {
+        <tr>
+          <td>@schedule.name</td>
+          <td>
+            @{ val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
+            schedule.startDateTime.format(formatter) }
+          </td>
+          <td>
+            @{ val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
+            schedule.endDateTime.format(formatter) }
+          </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+</div>
+}
