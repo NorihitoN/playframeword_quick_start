@@ -13,6 +13,14 @@ class MyScheduler extends PlaySpec with GuiceOneServerPerTest with OneBrowserPer
   import org.openqa.selenium.htmlunit.HtmlUnitDriver
   import com.gargoylesoftware.htmlunit.BrowserVersion
 
+  override def fakeApplication() = {
+    new GuiceApplicationBuilder()
+      .configure(
+        "db.default.url" -> "jdbc:h2:mem:test;MODE=MYSQL",
+        "db.default.driver" -> "org.h2.Driver")
+      .build()
+  }
+
   override def createWebDriver() = {
     val driver = new HtmlUnitDriver(BrowserVersion.BEST_SUPPORTED, true){
       def setAcceptLanguage(language: String) = {

@@ -20,6 +20,9 @@ libraryDependencies ++= Seq(
 
 dependencyOverrides += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
 
+Test / fork := true
+Test / javaOptions += "-Dconfig.file=conf/application.test.conf"
+
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
 

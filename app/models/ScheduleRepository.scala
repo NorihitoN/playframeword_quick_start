@@ -1,5 +1,6 @@
 package models
 import java.time.LocalDateTime
+import scalikejdbc._
 
 object ScheduleRepository {
 
@@ -8,15 +9,14 @@ object ScheduleRepository {
     Schedule(2, "Recruit", LocalDateTime.of(2024, 5, 17, 10, 0), LocalDateTime.of(2025, 1, 1, 11, 0))
   )
 
-  def findAll: List[Schedule] = schedules
-
-  def find(date: Option[String]): List[Schedule] = {
+  def find(date: Option[String]): List[Schedule] = DB readOnly { implicit session =>
     date match {
-      case Some(data) => schedules.filter(_.startDateTime.toLocalDate.toString == data)
-      case None => schedules.filter(_.startDateTime.toLocalDate == LocalDateTime.now().toLocalDate)
+      case Some(date) => sql"SELECT * FROM schedules WHERE start_date <= ${date} AND end_date >= ${date} order by start_date desc".map(rs => Schedule(rs.int("id"), rs.string("name"), rs.localDateTime("start_date"), rs.localDateTime("end_date"))).list.apply()
+      case None => sql"SELECT * FROM schedules order by start_date desc".map(rs => Schedule(rs.int("id"), rs.string("name"), rs.localDateTime("start_date"), rs.localDateTime("end_date"))).list.apply()
     }
-
   }
 
-  def add(schedule: Schedule): Unit = schedules = schedules :+ schedule
+  def add(schedule: Schedule): Unit = DB localTx { implicit session =>
+    sql"INSERT INTO schedules (name, start_date, end_date) VALUES (${schedule.name}, ${schedule.startDateTime}, ${schedule.endDateTime})".update.apply()
+  }
 }
